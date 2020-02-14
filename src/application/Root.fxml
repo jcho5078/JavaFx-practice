@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane id="Main" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="Main" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MovePage">
    <children>
       <Pane id="Main" prefHeight="130.0" prefWidth="270.0">
          <children>
@@ -29,7 +29,7 @@
                   <Button id="SginIn" mnemonicParsing="false" text="Sign In" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                   <Label text="ID:" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
                   <Label text="Passwd:" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-                  <Button id="SginUp" mnemonicParsing="false" text="Sgin Up" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Button id="SginUp" mnemonicParsing="false" onMouseClicked="#movePage" text="Sgin Up" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                </children>
             </GridPane>
          </children>
