@@ -24,12 +24,12 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TextField id="Id" GridPane.columnIndex="1" />
-                  <TextField id="Password" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField id="userId" GridPane.columnIndex="1" />
+                  <TextField id="userPw" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <Button id="SginIn" mnemonicParsing="false" text="Sign In" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                   <Label text="ID:" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
                   <Label text="Passwd:" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-                  <Button id="SginUp" mnemonicParsing="false" onMouseClicked="#movePage" text="Sgin Up" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Button id="SginUp" mnemonicParsing="false" onAction="#SignUp" text="Sgin Up" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                </children>
             </GridPane>
          </children>
